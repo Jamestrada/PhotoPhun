@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF52BECBB697761270AE71F /* Pods_PhotoPhunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0CB378DE0B56A2723CE76E /* Pods_PhotoPhunTests.framework */; };
+		437915092888D20C577E05D7 /* Pods_PhotoPhunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D4381F49B9FEC5582EC7EF /* Pods_PhotoPhunUITests.framework */; };
+		9986A4FC1E2CD78A0025A71D /* TPPPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986A4FB1E2CD78A0025A71D /* TPPPhotoController.m */; };
+		9986A4FF1E2CDBAA0025A71D /* TPPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9986A4FE1E2CDBAA0025A71D /* TPPDetailViewController.m */; };
+		9986A5011E2CDF540025A71D /* tipsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9986A5001E2CDF540025A71D /* tipsIcon.png */; };
+		99D17F241E2BE0C60024E2D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F231E2BE0C60024E2D1 /* main.m */; };
+		99D17F271E2BE0C60024E2D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F261E2BE0C60024E2D1 /* AppDelegate.m */; };
+		99D17F2D1E2BE0C60024E2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D17F2B1E2BE0C60024E2D1 /* Main.storyboard */; };
+		99D17F2F1E2BE0C60024E2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D17F2E1E2BE0C60024E2D1 /* Assets.xcassets */; };
+		99D17F321E2BE0C60024E2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D17F301E2BE0C60024E2D1 /* LaunchScreen.storyboard */; };
+		99D17F3D1E2BE0C60024E2D1 /* PhotoPhunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F3C1E2BE0C60024E2D1 /* PhotoPhunTests.m */; };
+		99D17F481E2BE0C60024E2D1 /* PhotoPhunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F471E2BE0C60024E2D1 /* PhotoPhunUITests.m */; };
+		99D17F571E2BE2030024E2D1 /* TPPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F561E2BE2030024E2D1 /* TPPCollectionViewController.m */; };
+		99D17F5A1E2BEA630024E2D1 /* TPPUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D17F591E2BEA630024E2D1 /* TPPUICollectionViewCell.m */; };
+		99D17F5C1E2BEC9B0024E2D1 /* tallBike in Resources */ = {isa = PBXBuildFile; fileRef = 99D17F5B1E2BEC9B0024E2D1 /* tallBike */; };
+		E440E9E41BCA0BBEA3ACBA7B /* Pods_PhotoPhun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA2FC8271A972A5F5A72FF3 /* Pods_PhotoPhun.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D17F391E2BE0C60024E2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D17F171E2BE0C60024E2D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D17F1E1E2BE0C60024E2D1;
+			remoteInfo = PhotoPhun;
+		};
+		99D17F441E2BE0C60024E2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D17F171E2BE0C60024E2D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D17F1E1E2BE0C60024E2D1;
+			remoteInfo = PhotoPhun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DCC38372BC706B2A13DF4C /* Pods-PhotoPhun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun.debug.xcconfig"; sourceTree = "<group>"; };
+		35D95E730458B505714B49E7 /* Pods-PhotoPhunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhunTests/Pods-PhotoPhunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60132FD6A1820891A8EE4385 /* Pods-PhotoPhunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhunTests/Pods-PhotoPhunTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EA2FC8271A972A5F5A72FF3 /* Pods_PhotoPhun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPhun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9986A4FA1E2CD78A0025A71D /* TPPPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPPhotoController.h; sourceTree = "<group>"; };
+		9986A4FB1E2CD78A0025A71D /* TPPPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPPhotoController.m; sourceTree = "<group>"; };
+		9986A4FD1E2CDBAA0025A71D /* TPPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPPDetailViewController.h; path = ../TPPDetailViewController.h; sourceTree = "<group>"; };
+		9986A4FE1E2CDBAA0025A71D /* TPPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPPDetailViewController.m; path = ../TPPDetailViewController.m; sourceTree = "<group>"; };
+		9986A5001E2CDF540025A71D /* tipsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipsIcon.png; sourceTree = "<group>"; };
+		99D17F1F1E2BE0C60024E2D1 /* PhotoPhun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPhun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D17F231E2BE0C60024E2D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99D17F251E2BE0C60024E2D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99D17F261E2BE0C60024E2D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99D17F2C1E2BE0C60024E2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D17F2E1E2BE0C60024E2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D17F311E2BE0C60024E2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D17F331E2BE0C60024E2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D17F381E2BE0C60024E2D1 /* PhotoPhunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPhunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D17F3C1E2BE0C60024E2D1 /* PhotoPhunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPhunTests.m; sourceTree = "<group>"; };
+		99D17F3E1E2BE0C60024E2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D17F431E2BE0C60024E2D1 /* PhotoPhunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPhunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D17F471E2BE0C60024E2D1 /* PhotoPhunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPhunUITests.m; sourceTree = "<group>"; };
+		99D17F491E2BE0C60024E2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D17F551E2BE2030024E2D1 /* TPPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPPCollectionViewController.h; path = ../TPPCollectionViewController.h; sourceTree = "<group>"; };
+		99D17F561E2BE2030024E2D1 /* TPPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPPCollectionViewController.m; path = ../TPPCollectionViewController.m; sourceTree = "<group>"; };
+		99D17F581E2BEA630024E2D1 /* TPPUICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPUICollectionViewCell.h; sourceTree = "<group>"; };
+		99D17F591E2BEA630024E2D1 /* TPPUICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPUICollectionViewCell.m; sourceTree = "<group>"; };
+		99D17F5B1E2BEC9B0024E2D1 /* tallBike */ = {isa = PBXFileReference; lastKnownFileType = file; path = tallBike; sourceTree = "<group>"; };
+		9DABCF3386487149CC10D90B /* Pods-PhotoPhun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhun.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun.release.xcconfig"; sourceTree = "<group>"; };
+		C0B12C99ED84A5AB40B3850A /* Pods-PhotoPhunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhunUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhunUITests/Pods-PhotoPhunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5D4381F49B9FEC5582EC7EF /* Pods_PhotoPhunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPhunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EDE6435BD95109B41C5B0B /* Pods-PhotoPhunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPhunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPhunUITests/Pods-PhotoPhunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0CB378DE0B56A2723CE76E /* Pods_PhotoPhunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPhunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D17F1C1E2BE0C60024E2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E440E9E41BCA0BBEA3ACBA7B /* Pods_PhotoPhun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F351E2BE0C60024E2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF52BECBB697761270AE71F /* Pods_PhotoPhunTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F401E2BE0C60024E2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437915092888D20C577E05D7 /* Pods_PhotoPhunUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99D17F161E2BE0C60024E2D1 = {
+			isa = PBXGroup;
+			children = (
+				99D17F211E2BE0C60024E2D1 /* PhotoPhun */,
+				99D17F3B1E2BE0C60024E2D1 /* PhotoPhunTests */,
+				99D17F461E2BE0C60024E2D1 /* PhotoPhunUITests */,
+				99D17F201E2BE0C60024E2D1 /* Products */,
+				DAB73F96875280373322E4AA /* Pods */,
+				D749700A16A9E5CA6E2862B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99D17F201E2BE0C60024E2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D17F1F1E2BE0C60024E2D1 /* PhotoPhun.app */,
+				99D17F381E2BE0C60024E2D1 /* PhotoPhunTests.xctest */,
+				99D17F431E2BE0C60024E2D1 /* PhotoPhunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D17F211E2BE0C60024E2D1 /* PhotoPhun */ = {
+			isa = PBXGroup;
+			children = (
+				9986A4FD1E2CDBAA0025A71D /* TPPDetailViewController.h */,
+				9986A4FE1E2CDBAA0025A71D /* TPPDetailViewController.m */,
+				99D17F5B1E2BEC9B0024E2D1 /* tallBike */,
+				99D17F551E2BE2030024E2D1 /* TPPCollectionViewController.h */,
+				99D17F561E2BE2030024E2D1 /* TPPCollectionViewController.m */,
+				99D17F251E2BE0C60024E2D1 /* AppDelegate.h */,
+				99D17F261E2BE0C60024E2D1 /* AppDelegate.m */,
+				99D17F2B1E2BE0C60024E2D1 /* Main.storyboard */,
+				99D17F581E2BEA630024E2D1 /* TPPUICollectionViewCell.h */,
+				99D17F591E2BEA630024E2D1 /* TPPUICollectionViewCell.m */,
+				99D17F2E1E2BE0C60024E2D1 /* Assets.xcassets */,
+				99D17F301E2BE0C60024E2D1 /* LaunchScreen.storyboard */,
+				99D17F331E2BE0C60024E2D1 /* Info.plist */,
+				99D17F221E2BE0C60024E2D1 /* Supporting Files */,
+				9986A4FA1E2CD78A0025A71D /* TPPPhotoController.h */,
+				9986A4FB1E2CD78A0025A71D /* TPPPhotoController.m */,
+				9986A5001E2CDF540025A71D /* tipsIcon.png */,
+			);
+			path = PhotoPhun;
+			sourceTree = "<group>";
+		};
+		99D17F221E2BE0C60024E2D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D17F231E2BE0C60024E2D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D17F3B1E2BE0C60024E2D1 /* PhotoPhunTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D17F3C1E2BE0C60024E2D1 /* PhotoPhunTests.m */,
+				99D17F3E1E2BE0C60024E2D1 /* Info.plist */,
+			);
+			path = PhotoPhunTests;
+			sourceTree = "<group>";
+		};
+		99D17F461E2BE0C60024E2D1 /* PhotoPhunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99D17F471E2BE0C60024E2D1 /* PhotoPhunUITests.m */,
+				99D17F491E2BE0C60024E2D1 /* Info.plist */,
+			);
+			path = PhotoPhunUITests;
+			sourceTree = "<group>";
+		};
+		D749700A16A9E5CA6E2862B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA2FC8271A972A5F5A72FF3 /* Pods_PhotoPhun.framework */,
+				DC0CB378DE0B56A2723CE76E /* Pods_PhotoPhunTests.framework */,
+				C5D4381F49B9FEC5582EC7EF /* Pods_PhotoPhunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB73F96875280373322E4AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24DCC38372BC706B2A13DF4C /* Pods-PhotoPhun.debug.xcconfig */,
+				9DABCF3386487149CC10D90B /* Pods-PhotoPhun.release.xcconfig */,
+				35D95E730458B505714B49E7 /* Pods-PhotoPhunTests.debug.xcconfig */,
+				60132FD6A1820891A8EE4385 /* Pods-PhotoPhunTests.release.xcconfig */,
+				C7EDE6435BD95109B41C5B0B /* Pods-PhotoPhunUITests.debug.xcconfig */,
+				C0B12C99ED84A5AB40B3850A /* Pods-PhotoPhunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D17F1E1E2BE0C60024E2D1 /* PhotoPhun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D17F4C1E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhun" */;
+			buildPhases = (
+				85797AA746B5E68C6AC59B68 /* [CP] Check Pods Manifest.lock */,
+				99D17F1B1E2BE0C60024E2D1 /* Sources */,
+				99D17F1C1E2BE0C60024E2D1 /* Frameworks */,
+				99D17F1D1E2BE0C60024E2D1 /* Resources */,
+				2A16846F94B4911E91725D74 /* [CP] Embed Pods Frameworks */,
+				B8DCD33A52B8635385722BC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPhun;
+			productName = PhotoPhun;
+			productReference = 99D17F1F1E2BE0C60024E2D1 /* PhotoPhun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D17F371E2BE0C60024E2D1 /* PhotoPhunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D17F4F1E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhunTests" */;
+			buildPhases = (
+				FF26C7CAF82630DB3A6246E5 /* [CP] Check Pods Manifest.lock */,
+				99D17F341E2BE0C60024E2D1 /* Sources */,
+				99D17F351E2BE0C60024E2D1 /* Frameworks */,
+				99D17F361E2BE0C60024E2D1 /* Resources */,
+				F7E20D0BCCE2F0C54A3B1ECA /* [CP] Embed Pods Frameworks */,
+				B019CFB2E56D43FDC7AD9820 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D17F3A1E2BE0C60024E2D1 /* PBXTargetDependency */,
+			);
+			name = PhotoPhunTests;
+			productName = PhotoPhunTests;
+			productReference = 99D17F381E2BE0C60024E2D1 /* PhotoPhunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99D17F421E2BE0C60024E2D1 /* PhotoPhunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D17F521E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhunUITests" */;
+			buildPhases = (
+				3316AE5CA365700C9C7326EF /* [CP] Check Pods Manifest.lock */,
+				99D17F3F1E2BE0C60024E2D1 /* Sources */,
+				99D17F401E2BE0C60024E2D1 /* Frameworks */,
+				99D17F411E2BE0C60024E2D1 /* Resources */,
+				8D5221AB8D57515201A2A579 /* [CP] Embed Pods Frameworks */,
+				470851F24F3C1756ED4A2816 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D17F451E2BE0C60024E2D1 /* PBXTargetDependency */,
+			);
+			name = PhotoPhunUITests;
+			productName = PhotoPhunUITests;
+			productReference = 99D17F431E2BE0C60024E2D1 /* PhotoPhunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D17F171E2BE0C60024E2D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "James Estrada";
+				TargetAttributes = {
+					99D17F1E1E2BE0C60024E2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8C6N42M8X3;
+					};
+					99D17F371E2BE0C60024E2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8C6N42M8X3;
+						TestTargetID = 99D17F1E1E2BE0C60024E2D1;
+					};
+					99D17F421E2BE0C60024E2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8C6N42M8X3;
+						TestTargetID = 99D17F1E1E2BE0C60024E2D1;
+					};
+				};
+			};
+			buildConfigurationList = 99D17F1A1E2BE0C60024E2D1 /* Build configuration list for PBXProject "PhotoPhun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D17F161E2BE0C60024E2D1;
+			productRefGroup = 99D17F201E2BE0C60024E2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D17F1E1E2BE0C60024E2D1 /* PhotoPhun */,
+				99D17F371E2BE0C60024E2D1 /* PhotoPhunTests */,
+				99D17F421E2BE0C60024E2D1 /* PhotoPhunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D17F1D1E2BE0C60024E2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9986A5011E2CDF540025A71D /* tipsIcon.png in Resources */,
+				99D17F321E2BE0C60024E2D1 /* LaunchScreen.storyboard in Resources */,
+				99D17F2F1E2BE0C60024E2D1 /* Assets.xcassets in Resources */,
+				99D17F2D1E2BE0C60024E2D1 /* Main.storyboard in Resources */,
+				99D17F5C1E2BEC9B0024E2D1 /* tallBike in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F361E2BE0C60024E2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F411E2BE0C60024E2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A16846F94B4911E91725D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3316AE5CA365700C9C7326EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		470851F24F3C1756ED4A2816 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhunUITests/Pods-PhotoPhunUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85797AA746B5E68C6AC59B68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5221AB8D57515201A2A579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhunUITests/Pods-PhotoPhunUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B019CFB2E56D43FDC7AD9820 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhunTests/Pods-PhotoPhunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DCD33A52B8635385722BC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhun/Pods-PhotoPhun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E20D0BCCE2F0C54A3B1ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoPhunTests/Pods-PhotoPhunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF26C7CAF82630DB3A6246E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D17F1B1E2BE0C60024E2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9986A4FF1E2CDBAA0025A71D /* TPPDetailViewController.m in Sources */,
+				99D17F571E2BE2030024E2D1 /* TPPCollectionViewController.m in Sources */,
+				99D17F5A1E2BEA630024E2D1 /* TPPUICollectionViewCell.m in Sources */,
+				99D17F271E2BE0C60024E2D1 /* AppDelegate.m in Sources */,
+				9986A4FC1E2CD78A0025A71D /* TPPPhotoController.m in Sources */,
+				99D17F241E2BE0C60024E2D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F341E2BE0C60024E2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D17F3D1E2BE0C60024E2D1 /* PhotoPhunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D17F3F1E2BE0C60024E2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D17F481E2BE0C60024E2D1 /* PhotoPhunUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D17F3A1E2BE0C60024E2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D17F1E1E2BE0C60024E2D1 /* PhotoPhun */;
+			targetProxy = 99D17F391E2BE0C60024E2D1 /* PBXContainerItemProxy */;
+		};
+		99D17F451E2BE0C60024E2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D17F1E1E2BE0C60024E2D1 /* PhotoPhun */;
+			targetProxy = 99D17F441E2BE0C60024E2D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99D17F2B1E2BE0C60024E2D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D17F2C1E2BE0C60024E2D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D17F301E2BE0C60024E2D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D17F311E2BE0C60024E2D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D17F4A1E2BE0C60024E2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99D17F4B1E2BE0C60024E2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D17F4D1E2BE0C60024E2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DCC38372BC706B2A13DF4C /* Pods-PhotoPhun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhotoPhun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamestrada.PhotoPhun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99D17F4E1E2BE0C60024E2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DABCF3386487149CC10D90B /* Pods-PhotoPhun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhotoPhun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamestrada.PhotoPhun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99D17F501E2BE0C60024E2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D95E730458B505714B49E7 /* Pods-PhotoPhunTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoPhunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamestrada.PhotoPhunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPhun.app/PhotoPhun";
+			};
+			name = Debug;
+		};
+		99D17F511E2BE0C60024E2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60132FD6A1820891A8EE4385 /* Pods-PhotoPhunTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoPhunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamestrada.PhotoPhunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPhun.app/PhotoPhun";
+			};
+			name = Release;
+		};
+		99D17F531E2BE0C60024E2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EDE6435BD95109B41C5B0B /* Pods-PhotoPhunUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoPhunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamestrada.PhotoPhunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoPhun;
+			};
+			name = Debug;
+		};
+		99D17F541E2BE0C60024E2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B12C99ED84A5AB40B3850A /* Pods-PhotoPhunUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoPhunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamestrada.PhotoPhunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoPhun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D17F1A1E2BE0C60024E2D1 /* Build configuration list for PBXProject "PhotoPhun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D17F4A1E2BE0C60024E2D1 /* Debug */,
+				99D17F4B1E2BE0C60024E2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D17F4C1E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D17F4D1E2BE0C60024E2D1 /* Debug */,
+				99D17F4E1E2BE0C60024E2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D17F4F1E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D17F501E2BE0C60024E2D1 /* Debug */,
+				99D17F511E2BE0C60024E2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D17F521E2BE0C60024E2D1 /* Build configuration list for PBXNativeTarget "PhotoPhunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D17F531E2BE0C60024E2D1 /* Debug */,
+				99D17F541E2BE0C60024E2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D17F171E2BE0C60024E2D1 /* Project object */;
+}
